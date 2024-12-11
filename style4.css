@@ -1,0 +1,156 @@
+ /* body{
+    text-align:center;
+}
+div{
+    border:2px solid black;
+    display: inline-block;
+    height:50px;
+    width: 50px;
+}
+#container{
+    height:800px;
+    width:800px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+   
+    align-items:flex-start; 
+    align-content:flex-end;
+   }
+#box1{
+    background-color:yellowgreen;
+}
+#box2{
+    background-color:rgb(205, 128, 50);
+    height:200px;
+    align-self:flex-end; 
+    flex-shrink:3;
+    flex-grow:4;
+}
+#box3{
+    background-color:rgb(200, 19, 200);
+    height:70px;
+    flex-grow:1;
+}
+#box4{
+    background-color:rgb(59, 156, 236);
+}
+#box5{
+    background-color:rgb(119, 102, 225);
+     align-self:flex-end; 
+} 
+/*practice set*/
+ /* /*-----CSS level5----*/
+ /* div{
+    background-color:aquamarine;
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    position:absolute;
+    top:30vh;
+    left:50vw;
+    /* transition-property:all;
+    transition-duration:6s;
+    transition-timing-function:steps(6,end);
+    transition-delay:1s; */
+ /* transition:all 1s ease-in; */
+ /* transform:rotate(45deg); */
+ /* rotate:x 90deg;
+    rotate:y 90deg; */
+ /* rotate:z 90deg; */
+ /* animation-name:animate;
+    animation-duration:0.25s; */
+ /* animation-timing-function:ease-in; */
+ /* animation-iteration-count:infinite;
+    animation-direction:alternate;
+     */
+
+ /* } */
+ /* @keyframes animate{
+   from{left:0px;}
+   to{left:200px;}
+} */
+ /* div:hover{
+    background-color:black;
+    color: white; */
+ /* font-size: 70px;
+    height:400px;
+    width:400px; */
+ /* transform:scalex(4); */
+ /* transform:scaley(4); */
+ /* transform:scale(4,4); */
+ /* transform:rotate(90deg); */
+ /* transform:translatex(200px); */
+ /* transform:translatey(200px); */
+ /* transform:translate(400px,400px); */
+ /* transform:skew(90deg); 
+ } */
+ /* div {
+     height: 100px;
+     width: 100px;
+     background-color: aqua;
+     border: 2px solid black;
+     position: absolute;
+     top: 100px;
+     left: 100px;
+     transition: all 1s ease-in; */
+ /* animation:animate 4s steps infinte alternate; */
+ /* animation-name: animate;
+     animation-duration: 7s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ } */
+
+ /* @keyframes animate {
+     0%{
+         left: 0px;
+         background-color: aqua;
+         width: 100px;
+     }
+     50%{
+        left:250px;
+        background-color:blueviolet;
+        border-radius:50%;
+     }
+
+     100% {
+         left: 500px;
+         background-color: red;
+         width: 300px;
+     }
+ } */
+
+ /* div:hover{
+    background-color:red;
+     transform:translatex(200px); 
+    width:300px;
+ } */
+ /*PRACTICE SET*/
+ div {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     border: 10px solid rgba(128, 128, 128, 0.908);
+     border-top: 10px solid black;
+     border-style: solid;
+     position: absolute;
+     left: 200px;
+     top: 200px;
+     animation-name: loader;
+     animation-duration: 0.5s;
+     animation-timing-function: ease-in;
+     animation-direction: normal;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes loader {
+     from {
+         transform: rotate(0deg);
+     }
+
+     to {
+         transform: rotate(360deg);
+     }
+ }
