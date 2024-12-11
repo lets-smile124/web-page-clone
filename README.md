@@ -1,2 +1,2 @@
 # web-page-clone
-I designed web page clone as my first mini project
+I designed web page clone of amazon as my first mini project
